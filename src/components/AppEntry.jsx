@@ -5,15 +5,16 @@ import React from 'react'
 
 export default class AppEntry extends React.Component {
 
+  /*
+    Return some JSX here
+    Remember, "this.props.." are mapped to Redux dispatch,
+    this.state is not set here, only this.props
+    State is handled at the top level by Redux, and trickles
+    down from there
+  */
   render(){
     return(
-      {/*
-        Return some JSX here
-        Remember, "this.props.." are mapped to Redux dispatch, 
-        this.state is not set here, only this.props 
-        State is handled at the top level by Redux, and trickles
-        down from there 
-      */}
+      <div></div>
     )
   }
 
