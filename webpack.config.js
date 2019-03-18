@@ -10,7 +10,6 @@ module.exports = {
   devServer: {
     publicPath: '/dev/'
   },
-  mode: 'development',
   watchOptions: {
     ignored: /node_modules/
   },

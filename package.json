@@ -26,8 +26,8 @@
     "webpack-dev-server": "^3.2.1"
   },
   "scripts": {
-    "compile": "webpack",
-    "start": "webpack-dev-server",
+    "compile": "webpack --mode production",
+    "dev:server": "webpack-dev-server --mode development",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "babel": {
