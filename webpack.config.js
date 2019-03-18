@@ -2,7 +2,7 @@ const path = require('path')
 const html_plugin = require('html-webpack-plugin')
 
 module.exports = {
-  entry: ['@babel/polyfill', './src/app.js'],
+  entry: ['@babel/polyfill', './src/index.js'],
   output: {
     path: path.resolve(`${__dirname}/dist`),
     filename: './index.js'

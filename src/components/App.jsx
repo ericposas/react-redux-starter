@@ -12,8 +12,10 @@ function mapStateToProps(state){
 
 function mapDispatchToProps(dispatch){
   // map our dispatch() calls so that our app UI is in sync with the Redux store
-  functionOne: ()=>{ dispatch({ type:'type1' }) },
-  functionTwo: ()=>{ dispatch({ type:'type2' }) }
+  return {
+    functionOne: ()=>{ dispatch({ type:'type1' }) },
+    functionTwo: ()=>{ dispatch({ type:'type2' }) }
+  }
 }
 
 // connect our React component and export the connected component for use
