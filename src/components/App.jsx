@@ -1,4 +1,4 @@
-import {connnect} from 'react-redux'
+import {connect} from 'react-redux'
 import AppEntry from './AppEntry.jsx'
 import React from 'react'
 
